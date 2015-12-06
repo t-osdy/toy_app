@@ -1,4 +1,4 @@
 class Micropost < ActiveRecord::Bas
-  validates :content, kength:{ maximum:140 }
+  validates :content, length:{ maximum:140 }
 
 end
